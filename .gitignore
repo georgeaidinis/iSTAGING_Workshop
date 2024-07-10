@@ -1,0 +1,25 @@
+# Sensitive data files
+*.nii.gz
+*.csv
+
+# Cached, compiled code, etc
+__pycache__/
+__numpy_cache__/
+*.py[cod]
+*$py.class
+
+# Config files
+.env
+.venv
+.vscode/
+*.code-workspace
+
+# Build artifacts
+*.egg
+build/
+develop-eggs/
+dist/
+downloads/
+
+# OS stuff
+*.DS_Store
